@@ -1,0 +1,58 @@
+@import '../fonts/stylesheet.css';
+
+body {
+    font-family: 'corsivo_primariamedium';
+}
+
+.righe {
+    background-image: url('../bg/righe.png');
+    width: 768px;
+    height: 1024px;
+}
+
+.fullwidth {
+    width: 100%;
+    background: white;
+}
+
+.centered {
+    margin:0 auto;
+}
+
+
+.editorjs {
+    left: 20px;
+    top: 20px;
+}
+
+
+.pt30 {
+    font-size: 30pt;
+}
+.foglio {
+    position: relative;
+    top: 81px;
+    left: 33px;
+}
+
+.cdx-block {
+    margin: 0px !important;
+    padding: 1px !important;
+}
+
+.float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#0C9;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+    margin-top:22px;
+}
